@@ -1,0 +1,1 @@
+cmd_/home/maldo/git-maldo/embeded_rasberryPY/module_hello/module_hello.mod := printf '%s\n'   module_hello.o | awk '!x[$$0]++ { print("/home/maldo/git-maldo/embeded_rasberryPY/module_hello/"$$0) }' > /home/maldo/git-maldo/embeded_rasberryPY/module_hello/module_hello.mod

@@ -1,0 +1,1 @@
+cmd_/home/maldo/git-maldo/embeded_rasberryPY/module_hello/module_hello.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/maldo/git-maldo/embeded_rasberryPY/module_hello/module_hello.ko /home/maldo/git-maldo/embeded_rasberryPY/module_hello/module_hello.o /home/maldo/git-maldo/embeded_rasberryPY/module_hello/module_hello.mod.o;  true
